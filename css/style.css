@@ -364,11 +364,15 @@ li {
     color: #fefce4;
     font-size: 1rem;
     padding-top: 4px;
+    text-align: left
 }
 ul{
   content: "\2022";
   color: #fefce4;
   list-style-type: disc;
+  overflow: hidden;
+  float: left;
+  width: 100%
 }
 .resume{
   margin-top: 5px
