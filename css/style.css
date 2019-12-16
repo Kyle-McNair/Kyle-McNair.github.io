@@ -84,6 +84,10 @@ body {
   display:grid;
   justify-content: center
 }
+.description{
+  max-width: 800px
+}
+]
 .degree{
     font-style: bold;
     text-align: left;
