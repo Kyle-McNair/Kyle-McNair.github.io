@@ -84,9 +84,6 @@ body {
   display:grid;
   justify-content: center
 }
-.description{
-  max-width: 800px
-}
 ]
 .degree{
     font-style: bold;
@@ -261,6 +258,7 @@ p.year{
   margin-right: auto;
   margin-left: auto;
   float:none;
+  max-width: 1250px;
 }
 .portfolio-size{
   height:400px;
