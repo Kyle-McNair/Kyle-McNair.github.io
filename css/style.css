@@ -8,7 +8,7 @@ a:hover{
     text-shadow: 0px 0px 25px #fefce4
 }
 .bg-dark{
-    background-color: #1b2336!important;
+    background-color: #0a0d14!important;
 }
 body {
   padding-top: 70px;
@@ -19,10 +19,10 @@ body {
   line-height: 1;
   color: #fefce4;
   text-align: left;
-  background-color: #1b2336;
+  background-color: #0a0d14;
 }
 .big-margin{
-  margin-bottom: 160px
+  margin-bottom: 60px
 }
 .bottom {
     height:25px;
@@ -83,6 +83,16 @@ body {
   margin-left: auto;
   display:grid;
   justify-content: center
+}
+.container-portfolio {
+  margin-top: 10px;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: inherit;
+  justify-content: center;
 }
 ]
 .degree{
@@ -164,12 +174,12 @@ iframe{
 img:hover{
     box-shadow: 0px 0px 25px 0px #fefce4
 }
-img.employer-img{
-    border-radius: 50%;
-    height: auto;
-    width: auto;
-    box-shadow: 0 0 0 0
-}
+.img-bground{
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden
+  }
 .left{
     margin-left: 15px
 }
@@ -189,22 +199,22 @@ nav{
   color: #758aae
 }
 .navbar-dark .navbar-toggler {
-    color: #1b2336;
+    color: #0a0d14;
     border-color: #fefce4
 }
 .navbar-toggler {
     font-size: 1.5rem;
-    background-color: #1b2336;
+    background-color: #0a0d14;
   }
 .nav-item{
-    background-color: #1b2336;
+    background-color: #0a0d14;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .nav-itm, .active{
    background-color: #fefce4, 0.3;
-   text-decoration-color:  #1b2336;
+   text-decoration-color:  #0a0d14;
    font-weight: 200;
    padding-top: 15px;
    padding-bottom: 15px;
@@ -229,7 +239,7 @@ nav{
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: rgba(27,35,54,0.8);
+  background-color: rgba(10,13,20,0.8);
   border-radius: 0.90rem
 }
 p{
@@ -261,8 +271,8 @@ p.year{
   max-width: 1250px;
 }
 .portfolio-size{
-  height:400px;
-  width: 500px;
+  height: 400px;
+  width: auto;
   object-fit: cover;
 }
 .Resume-Header{
@@ -273,6 +283,17 @@ p.year{
 }
 .rounded {
   border-radius: 0.90rem !important;
+}
+.row-port {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -25px;
+    margin-left: -25px;
+    max-width: 1000px;
+    justify-content: center;
+    display:grid;
 }
 .text {
   font-family: 'Belleza', sans-serif;
