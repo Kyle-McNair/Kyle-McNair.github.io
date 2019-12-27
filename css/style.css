@@ -1,11 +1,11 @@
 
 a:link, a:visited {;;
   padding: 1px 1px;
-    color: #fefce4;
+    color: #ceced0;
   text-decoration: none;
 }
 a:hover{
-    text-shadow: 0px 0px 25px #fefce4
+    text-shadow: 0px 0px 25px #ceced0
 }
 .bg-dark{
     background-color: #0a0d14!important;
@@ -17,7 +17,7 @@ body {
   font-size: 1rem;
   font-weight: 100;
   line-height: 1;
-  color: #fefce4;
+  color: #ceced0;
   text-align: left;
   background-color: #0a0d14;
 }
@@ -128,28 +128,28 @@ body {
   height:auto;
 }
 h1 {
-    color: #fefce4;
+    color: #ceced0;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     text-align: center;
     justify-content: center
 }
 h2 {
-    color: #fefce4;
+    color: #ceced0;
     font-family: 'Belleza', sans-serif;
     font-size: 1.5rem;
     text-align: left;
 }
 h3{margin: 0;
 font-family: "Georgia", serif;
-color: #fefce4;
+color: #ceced0;
 text-align: left;
 font-size: 1.5rem;
 
 }
 h4{
   font-family: 'Lato', sans-serif;
-  color: #fefce4;
+  color: #ceced0;
   font-size: 1.5rem;
   margin-bottom: 5px
 }
@@ -157,7 +157,7 @@ h4{
 h5{
     font-size: 2rem;
     font-family: 'Belleza', sans-serif;
-    color: #fefce4;
+    color: #ceced0;
     text-align: center;
     margin-top: 25px
 }
@@ -165,7 +165,7 @@ h5{
     margin-top: 10px;
     height: 5px;
     width: 100%;
-    background-color: #fefce4;
+    background-color: #ceced0;
 }
 
 iframe{
@@ -174,7 +174,7 @@ iframe{
     box-sizing: inherit;
 }
 img:hover{
-    box-shadow: 0px 0px 25px 0px #fefce4
+    box-shadow: 0px 0px 25px 0px #ceced0
 }
 .img-bground{
   height: auto;
@@ -187,7 +187,7 @@ img:hover{
 }
 nav{
   height: 50px;
-  color: #fefce4 !important;
+  color: #ceced0 !important;
   font-size: 1.5rem !important;
   font-family: 'Belleza', sans-serif;
 }
@@ -195,14 +195,14 @@ nav{
     font-size: 2.5rem !important;
 }
 .navbar-dark .navbar-nav .active>.nav-link{
-  color: #fefce4
+  color: #ceced0
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #758aae
 }
 .navbar-dark .navbar-toggler {
     color: #0a0d14;
-    border-color: #fefce4
+    border-color: #ceced0
 }
 .navbar-toggler {
     font-size: 1.5rem;
@@ -215,15 +215,15 @@ nav{
     padding-bottom: 15px;
 }
 .nav-itm, .active{
-   background-color: #fefce4, 0.3;
+   background-color: #ceced0, 0.3;
    text-decoration-color:  #0a0d14;
    font-weight: 200;
    padding-top: 15px;
    padding-bottom: 15px;
 }
 .navbar-toggler-icon {
-  border-color: #fefce4;
-  color: #fefce4;
+  border-color: #ceced0;
+  color: #ceced0;
 }
 .fixed-top{
   width: 100%;
@@ -246,7 +246,7 @@ nav{
 }
 p{
     font-size: 1.25rem;
-    color: #fefce4;
+    color: #ceced0;
     text-align: left;
     margin-top: 25px;
     margin-left: 15px;
@@ -261,7 +261,7 @@ p.year{
     margin-top: 0
 }
 .paragraph{
-  color: #fefce4;
+  color: #ceced0;
   font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
   text-align: left;
@@ -279,7 +279,7 @@ p.year{
 }
 .Resume-Header{
     font-family: "Georgia", serif;
-    color: #fefce4;
+    color: #ceced0;
     text-align: center;
     margin-bottom: 5px
 }
@@ -299,7 +299,7 @@ p.year{
 }
 .text {
   font-family: 'Belleza', sans-serif;
-  color: #fefce4;
+  color: #ceced0;
   font-size: 3rem;
   line-height: 1.6;
   position: absolute;
@@ -386,7 +386,7 @@ li {
     text-align: left;
     content: "\2022";
     font-family: 'Lato', sans-serif;
-    color: #fefce4;
+    color: #ceced0;
     font-size: 1rem;
     padding-top: 4px;
     text-align: left
@@ -394,7 +394,7 @@ li {
 }
 ul{
   content: "\2022";
-  color: #fefce4;
+  color: #ceced0;
   list-style-type: disc;
   overflow: hidden;
 }
