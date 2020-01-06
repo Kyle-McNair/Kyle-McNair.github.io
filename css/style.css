@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth!important
+}
+
 
 a:link, a:visited {;;
   padding: 1px 1px;
@@ -5,7 +9,7 @@ a:link, a:visited {;;
   text-decoration: none;
 }
 a:hover{
-    text-shadow: 0px 0px 25px #ceced0
+    text-shadow: 0px 0px 25px #ceced0;
 }
 .bg-dark{
     background-color: #0a0d14!important;
@@ -89,7 +93,6 @@ body {
   display: inherit;
   justify-content: center;
 }
-]
 .degree{
     font-style: bold;
     text-align: left;
@@ -185,6 +188,7 @@ img:hover{
 .left{
     margin-left: 15px
 }
+
 nav{
   height: 50px;
   color: #ceced0 !important;
@@ -400,4 +404,21 @@ ul{
 }
 .resume{
   margin-top: 5px
+}
+.welcome-container{
+  position: absolute;
+  display:list-item;
+  margin-top: 10%;
+  right:0;
+  left: 0;
+  top: 0;
+  bottom:0;
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+}
+.welcome-page{
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
