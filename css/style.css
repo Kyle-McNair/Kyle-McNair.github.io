@@ -1,7 +1,12 @@
 html {
   scroll-behavior: smooth!important
 }
-
+@media (max-width: 576px){
+  html {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  }
+}
 
 a:link, a:visited {;;
   padding: 1px 1px;
