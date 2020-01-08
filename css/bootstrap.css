@@ -588,6 +588,7 @@ pre code {
 .row {
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-box;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;

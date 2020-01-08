@@ -96,6 +96,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   display: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
   justify-content: center;
 }
 .degree{
