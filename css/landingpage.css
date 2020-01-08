@@ -5,6 +5,7 @@
   min-width: 40%;
   min-height: 40%;
   position: sticky;
+  position: fixed;
   overflow: hidden;
 }
 .angle-2{
@@ -16,6 +17,7 @@
   float: left;
   margin-left: 20%;
   position: relative;
+  position: fixed;
 }
 @-webkit-keyframes ShootingStars
 {
