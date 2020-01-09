@@ -14,7 +14,7 @@ a:link, a:visited {;;
   text-decoration: none;
 }
 a.fa{
-  color: #a1a1ef;
+  color: #7aa3f5;
 }
 a:hover{
     text-shadow: 0px 0px 25px #ceced0;
@@ -169,7 +169,7 @@ h4{
 h5{
     font-size: 2.5rem;
     font-family: 'Belleza', sans-serif;
-    color: #a1a1ef;
+    color: #7aa3f5;
     text-align: left;
     margin-top: 25px
 }
@@ -220,7 +220,7 @@ nav{
   color: #ceced0
 }
 .navbar-dark .navbar-nav .nav-link{
-  color: #a1a1ef
+  color: #7aa3f5
 }
 .navbar-dark .navbar-toggler {
     color: #0a0d14;
@@ -361,7 +361,7 @@ td.gradyear{
 }
 
 .toTop{
-  color: #a1a1ef;
+  color: #7aa3f5;
   font-family: 'Belleza', sans-serif;
 }
 tr {
