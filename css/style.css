@@ -13,6 +13,9 @@ a:link, a:visited {;;
     color: #ceced0;
   text-decoration: none;
 }
+a.fa{
+  color: #a1a1ef;
+}
 a:hover{
     text-shadow: 0px 0px 25px #ceced0;
 }
@@ -114,14 +117,12 @@ body {
 }
 .fa-linkedin {
     margin-left: 10px;
-    background: #758aae;
-    color: #758aae;
+    background-color: #0a0d14;
     text-align: center;
 }
 .fa-twitter {
     margin-right: 10px;
-    background: #758aae;
-    color: #758aae;
+    background-color: #0a0d14;
     text-align: center;
 }
 .fa {
@@ -166,17 +167,25 @@ h4{
 }
 
 h5{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Belleza', sans-serif;
-    color: #ceced0;
-    text-align: center;
+    color: #a1a1ef;
+    text-align: left;
     margin-top: 25px
 }
+.Hello{
+  font-size: 3rem;
+  font-family: 'Belleza', sans-serif;
+  color: #ceced0;
+  text-align: center;
+  margin-top: 25px
+}
 .header-bar{
-    margin-top: 10px;
-    height: 5px;
+    margin-top: 5px;
+    height: 1px;
     width: 100%;
     background-color: #ceced0;
+    filter:drop-shadow(0 0 2px #ceced0);
 }
 
 iframe{
@@ -211,7 +220,7 @@ nav{
   color: #ceced0
 }
 .navbar-dark .navbar-nav .nav-link{
-  color: #758aae
+  color: #a1a1ef
 }
 .navbar-dark .navbar-toggler {
     color: #0a0d14;
