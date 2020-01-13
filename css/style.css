@@ -84,6 +84,7 @@ body {
 }
 .container-resume {
   width: auto;
+  max-width: 1000px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
