@@ -104,10 +104,7 @@ body {
       -ms-flex-pack: center;
   justify-content: center;
 }
-div.scrollable{
-  overflow : auto;
-  position : relative;
-  }
+
 .degree{
     font-style: bold;
     text-align: left;
