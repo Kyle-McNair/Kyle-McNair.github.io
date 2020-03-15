@@ -81,16 +81,6 @@ body {
   justify-content: center;
   text-align: center;
 }
-.container-resume {
-  width: auto;
-  max-width: 1000px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  display:grid;
-  justify-content: center
-}
 .container-portfolio {
   margin-top: 10px;
   max-width: 1200px;
@@ -102,19 +92,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
   justify-content: center;
-}
-
-.degree{
-    font-style: bold;
-    text-align: left;
-    margin-left: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px
-}
-.employer-png{
-    display:block;
-    justify-content: center
 }
 .fa-linkedin {
     margin-left: 10px;
@@ -300,12 +277,7 @@ p.year{
   width: auto;
   object-fit: cover;
 }
-.Resume-Header{
-    font-family: "Georgia", serif;
-    color: #ceced0;
-    text-align: center;
-    margin-bottom: 5px
-}
+
 .rounded {
   border-radius: 0.90rem !important;
 }
@@ -332,49 +304,21 @@ p.year{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-table{
-    margin-top: 10px;
-    display: table;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-}
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-}
-td,th{
-    display: table-cell;
-    vertical-align: inherit;
-    padding:inherit
-}
-td.gradyear{
-    vertical-align: top;
-    text-align: right;
-    padding: 0%
-}
-.town{
-    font-style: italic;
-    text-align: left;
-    margin-left: 25px;
-    margin-top: 10px;
-    font-size: 20px
-}
+
 
 .toTop{
   color: #7aa3f5;
   font-family: 'Belleza', sans-serif;
 }
 li {
-    display: list-item;
-    text-align: left;
-    content: "\2022";
-    font-family: 'Nobile', sans-serif;
-    color: #ceced0;
-    font-size: 1rem;
-    padding-top: 4px;
-    text-align: left
-
+  display: list-item;
+  text-align: left;
+  content: "\2022";
+  font-family: 'Nobile', sans-serif;
+  color: #ceced0;
+  font-size: 1.0rem;
+  padding-top: 4px;
+  text-align: left
 }
 ul{
   content: "\2022";
@@ -382,9 +326,7 @@ ul{
   list-style-type: disc;
   overflow: hidden;
 }
-.resume{
-  margin-top: 5px
-}
+
 .welcome-container{
   position: absolute;
   display:list-item;
