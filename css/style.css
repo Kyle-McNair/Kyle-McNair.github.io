@@ -119,26 +119,26 @@ body {
 
 h1 {
     color: #ceced0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nobile', sans-serif;
     font-size: 2rem;
     text-align: center;
     justify-content: center
 }
 h2 {
     color: #ceced0;
-    font-family: 'Belleza', sans-serif;
+    font-family: 'Nobile', sans-serif;
     font-size: 1.5rem;
     text-align: left;
 }
 h3{margin: 0;
-font-family: "Georgia", serif;
+  font-family: 'Nobile', sans-serif;
 color: #ceced0;
 text-align: left;
 font-size: 1.5rem;
 
 }
 h4{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nobile', sans-serif;
   color: #ceced0;
   font-size: 1.5rem;
   margin-bottom: 5px
@@ -146,7 +146,7 @@ h4{
 
 h5{
     font-size: 2.5rem;
-    font-family: 'Belleza', sans-serif;
+    font-family: 'Nobile', sans-serif;
     color: #7aa3f5;
     text-align: left;
     margin-top: 25px
@@ -251,7 +251,7 @@ p{
     margin-top: 25px;
     margin-left: 15px;
     margin-right: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nobile', sans-serif;
 }
 p.year{
     font-family: 'Lato', sans-serif;
@@ -262,7 +262,7 @@ p.year{
 }
 .paragraph{
   color: #ceced0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nobile', sans-serif;
   font-size: 1.25rem;
   text-align: left;
   justify-content: center;
