@@ -8,7 +8,7 @@ html {
   }
 }
 
-a:link, a:visited {;;
+a:link, a:visited {
   padding: 1px 1px;
     color: #ceced0;
   text-decoration: none;
