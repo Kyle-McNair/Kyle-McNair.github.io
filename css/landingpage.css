@@ -141,5 +141,5 @@
   }
 }
 @supports (-ms-ime-align:auto) {
-  div:not(.angle, .angle-2)
+  div:not(.angle, .angle-2);
 }

@@ -10,14 +10,14 @@ html {
 
 a:link, a:visited {
   padding: 1px 1px;
-    color: #ceced0;
+    color: white;
   text-decoration: none;
 }
 a.fa{
   color: #7aa3f5;
 }
 a:hover{
-    text-shadow: 0px 0px 25px #ceced0;
+    text-shadow: 0px 0px 25px white;
 }
 .bg-dark{
     background-color: #0a0d14!important;
@@ -28,7 +28,7 @@ body {
   font-size: 1rem;
   font-weight: 100;
   line-height: 1;
-  color: #ceced0;
+  color: white;
   text-align: left;
   background-color: #0a0d14;
 }
@@ -110,27 +110,27 @@ body {
   height:auto;
 }
 h1{
-  font-family: 'Nobile', sans-serif;
-  color: #ceced0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
   text-align: left;
   font-size: 1.00rem;
 }
 h2 {
-    color: #909091;
-    font-family: 'Nobile', sans-serif;
+    color: #96acda;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-align: left;
 }
 h3{margin: 0;
   font-family: 'Nobile', sans-serif;
-color: #ceced0;
-text-align: left;
-font-size: 1.5rem;
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
 
 }
 h5{
     font-size: 2.5rem;
-    font-family: 'Nobile', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #7aa3f5;
     text-align: left;
     margin-top: 25px
@@ -139,12 +139,12 @@ h5{
     margin-top: 5px;
     height: 1px;
     width: 100%;
-    background-color: #ceced0;
-    filter:drop-shadow(0 0 2px #ceced0);
+    background-color: white;
+    filter:drop-shadow(0 0 2px white);
 }
 nav{
   height: 50px;
-  color: #ceced0 !important;
+  color: white !important;
   font-size: 1.5rem !important;
   font-family: 'Belleza', sans-serif;
 }
@@ -152,14 +152,14 @@ nav{
     font-size: 2.5rem !important;
 }
 .navbar-dark .navbar-nav .active>.nav-link{
-  color: #ceced0
+  color: white
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #7aa3f5
 }
 .navbar-dark .navbar-toggler {
     color: #0a0d14;
-    border-color: #ceced0
+    border-color: white
 }
 .navbar-toggler {
     font-size: 1.5rem;
@@ -172,15 +172,15 @@ nav{
     padding-bottom: 15px;
 }
 .nav-itm, .active{
-   background-color: #ceced0, 0.3;
+   background-color: white, 0.3;
    text-decoration-color:  #0a0d14;
    font-weight: 200;
    padding-top: 15px;
    padding-bottom: 15px;
 }
 .navbar-toggler-icon {
-  border-color: #ceced0;
-  color: #ceced0;
+  border-color: white;
+  color: white;
 }
 .fixed-top{
   width: 100%;
@@ -189,12 +189,12 @@ nav{
 }
 p{
     font-size: 1.25rem;
-    color: #ceced0;
+    color: white;
     text-align: left;
     margin-top: 25px;
     margin-left: 15px;
     margin-right: 15px;
-    font-family: 'Nobile', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 .toTop{
   color: #7aa3f5;
@@ -204,15 +204,15 @@ li {
     display: list-item;
     text-align: left;
     content: "\2022";
-    font-family: 'Nobile', sans-serif;
-    color: #ceced0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     font-size: 1rem;
     padding-top: 4px;
     text-align: left
 }
 ul{
   content: "\2022";
-  color: #ceced0;
+  color: white;
   list-style-type: disc;
   overflow: hidden;
 }
