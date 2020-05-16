@@ -86,6 +86,10 @@ body {
       -ms-flex-pack: center;
   justify-content: center;
 }
+.date{
+  color: #96acda;
+  font-family: 'Roboto', sans-serif;
+}
 .fa-linkedin {
     margin-left: 10px;
     background-color: #0a0d14;
