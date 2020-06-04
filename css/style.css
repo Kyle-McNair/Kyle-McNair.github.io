@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth!important
+  scroll-behavior: smooth!important;
 }
 @media (max-width: 576px){
   html {
@@ -58,6 +58,7 @@ body {
 
 .col-md-4, .col-sm-6 .col-sm-12, .col-xs-12 {
     padding: 5px;
+    margin-bottom: -15px
   }
 .collapse:(.show) {
     display: list-item!important;
@@ -177,10 +178,8 @@ img:hover{
     box-shadow: 0px 0px 25px 0px white
 }
 .img-bground{
-  height:auto;
+  height: auto;
   min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
 }
 
 .left{
@@ -239,12 +238,9 @@ nav{
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
   transition: .3s ease;
   background-color: rgba(10, 13, 20, 0.8);
-  border-radius: 0.90rem
 }
 p{
     font-size: 1.25rem;
