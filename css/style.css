@@ -180,7 +180,11 @@ img:hover{
   height: auto;
   min-width: 100%;
 }
-
+.gif{
+  width:75%;
+  height: auto;
+  margin-bottom: 75px;
+}
 .left{
     margin-left: 15px
 }
