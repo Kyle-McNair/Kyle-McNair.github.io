@@ -1,5 +1,5 @@
 
-<html>
+<div>
 
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css\style.css"/>
         <link rel="stylesheet" href="css\landingpage.css"/>
 
-        <title>Kyle McNair - GIS & Cartography</title>
+        <title>Kyle McNair - Spatial Analysis & Cartography</title>
     </head>
 
 <body>
@@ -39,8 +39,8 @@
   </section>
 
 
-  <nav  id = "main-start" class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md navbar-dark bg-dark fixed-top" style = "position: sticky">
-    <a class="navbar-brand" href="index.html#main-start">Kyle McNair</a>
+  <nav  id = "main-start" class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md navbar-dark bg-dark fixed">
+    <a id = "mainTop" class="navbar-brand" href="index.html#main-start">Kyle McNair</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,10 +50,10 @@
           <a class="nav-link" href="index.html#main-start">Portfolio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="resume.html">Resume</a>
+          <a class="nav-link" href="resume/resume.html">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">About Me</a>
+          <a class="nav-link" href="about/aboutme.html">About Me</a>
         </li>
       </ul>
     </div>
@@ -61,99 +61,194 @@
 
     <div class = "header-bar"></div>
 
-    <div class = "h-50 container-portfolio big-margin" align = "center">
+    <div class = "container-portfolio" align = "center" style = "position: relative">
+      <div  style = "height: 5vh"></div>
+      <div  class = "row" style = "background-color: #636f7a; font-size: 1.35em; font-family: 'Roboto', sans-serif">
+        <div class = "col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center pf">
+            <a class = "headerLink" href = "#interactive">
+              <div class = "portfolio-select">
+                Interactive Maps
+              </div>
+            </a>
+        </div>
+        <div class = "col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center pf">
+            <a class = "headerLink" href = "#static">
+              <div class = "portfolio-select">
+                Static Maps
+              </div>
+            </a>
+        </div>
+        <div class = "col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center pf">
+            <a class = "headerLink" href = "#spatial">
+              <div class = "portfolio-select">
+                GIS & Spatial Analysis
+              </div>
+            </a>
+        </div>
+        <div class = "col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center pf">
+            <a class = "headerLink" href = "#dataViz">
+              <div class = "portfolio-select">
+                Data Visualizations
+              </div>
+            </a>
+        </div>
+      </div>
+
+
+      <div id = "interactive" style = "height: 8vh"></div>
       <div id = "container-fluid" align = "center">
+        <div><h1 >Interactive Maps</h1></div>
+          <div class = "row">
+            <div class = "col-md-3 col-sm-6 col-xs-12 text-center">
+              <a href = "projects\BirthGenerations\BirthGenerations.html">
+                <img class = "img-bground" src = 'images\BirthGenerations.png'>
+                <div class="overlay" style = "display: inline">
+                  <div class="text">Where Do Birth Generations Live?</div>
+                </div>
+                </a>
+            </div>
+            <div class = "col-md-3 col-sm-6 col-xs-12 text-center">
+              <a href = "https://kyle-mcnair.github.io/D3_Coordinated_Visualization/" target = "_blank">
+                <img class = "img-bground" src = 'images\ChicagoDemographics.PNG'>
+                <div class="overlay" style = "display: inline">
+                  <div class="text">Exploring Chicago Demographics</div>
+                </div>
+                </a>
+            </div>
+            <div class = "col-md-3 col-sm-6 col-xs-12 text-center">
+              <a href = "projects\Tambopata\Tambopata.html">
+                <img class = "img-bground" src = 'images\Tambopata.png'>
+                <div class="overlay" style = "display: inline">
+                  <div class="text">Redesigning the Tambopata Website</div>
+                </div>
+                </a>
+            </div>
+            <div class = "col-md-3 col-sm-6 col-xs-12 text-center">
+              <a href = "https://kyle-mcnair.github.io/Leaflet-Lab/" target = "_blank">
+                <img class = "img-bground" src = 'images\HighRise.PNG'>
+                <div class="overlay" style = "display: inline">
+                  <div class="text">High Rises in North America</div>
+                </div>
+                </a>
+            </div>
+            <div class = "col-md-3 col-sm-6 col-xs-12 text-center">
+              <a href = "..\projects\Mapbox\Mapbox.html">
+                <img class = "img-bground" src = 'images\Mapbox.PNG'>
+                <div class="overlay" style = "display: inline">
+                  <div class="text">Hiroshi Nagai Themed Map</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        <div id = "static" style = "height: 10vh"></div>
+        <div><h1 >Static Maps</h1></div>
         <div class = "row">
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\BirthGenerations.html">
-            <img class = "img-fluid img-bground" src = 'images\BirthGenerations.png'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Where Do Birth Generations Live?</div>
-            </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "projects\MississippiRiver\MississippiRiver.html">
+              <img class = "img-fluid img-bground" src = 'images\MississippiRiverIcon.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">The Mississippi River</div>
+              </div>
+              </a>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "projects\NamingWisconsin\NamingWisconsin.html">
+              <img class = "img-fluid img-bground" src = 'images\NamingWisconsinIcon.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Naming Wisconsin</div>
+              </div>
+              </a>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "projects\SanJuanIslands\SanJuanIslands.html">
+              <img class = "img-fluid img-bground" src = 'images\SanJuan_Islands.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">San Juan Islands</div>
+              </div>
             </a>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "projects\WisconsinManufacturing\WisconsinManufacturing.html">
+              <img class = "img-fluid img-bground" src = 'images\Manufacturing.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Wisconsin Manufacturing</div>
+              </div>
+              </a>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "projects\LegendLake\LegendLake.html">
+              <img class = "img-fluid img-bground" src = 'images\LegendLake.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Legend Lake Bathymetric Map</div>
+              </div>
+              </a>
+          </div>
         </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\MississippiRiver.html">
-            <img class = "img-fluid img-bground" src = 'images\MississippiRiverIcon.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">The Mississippi River</div>
-            </div>
+        <div id = "spatial" style = "height: 10vh"></div>
+        <div><h1>GIS & Spatial Analysis</h1></div>
+        <div class = "row">
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "..\projects\jpnb\NewYork_StoreVisits.html" target = "_blank">
+              <img class = "img-fluid img-bground" src = 'images\StoreVisits.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Analyzing Store Visits during COVID-19</div>
+              </div>
             </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\Tambopata.html">
-            <img class = "img-fluid img-bground" src = 'images\Tambopata.png'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Redesigning the Tambopata Website</div>
-            </div>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "..\projects\ErosionVuln\erosionvulnerability.html">
+              <img class = "img-fluid img-bground" src = 'images\LacCourteOreilles.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Measuring Erosion Vulnerability</div>
+              </div>
             </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "https://kyle-mcnair.github.io/D3_Coordinated_Visualization/" target = "_blank">
-            <img class = "img-fluid img-bground" src = 'images\ChicagoDemographics.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Exploring Chicago Demographics</div>
-            </div>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "..\projects\jpnb\FlickrAPI.html" target = "_blank">
+              <img class = "img-fluid img-bground" src = 'images\FlickrPoints.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Gathering Location Data from Flickr API</div>
+              </div>
             </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\NamingWisconsin.html">
-            <img class = "img-fluid img-bground" src = 'images\NamingWisconsinIcon.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Naming Wisconsin</div>
-            </div>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "..\projects\ECWRPC_LU\LandUseCalc.html">
+              <img class = "img-fluid img-bground" src = 'images\LandUseCalc.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Using ModelBuilder to Calculate Land Use Acreage</div>
+              </div>
             </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "https://kyle-mcnair.github.io/Leaflet-Lab/" target = "_blank">
-            <img class = "img-fluid img-bground" src = 'images\HighRise.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">High Rises in North America</div>
-            </div>
+          </div>
+          <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+            <a href = "..\projects\WineSuitability\WineSuitability.html">
+              <img class = "img-fluid img-bground" src = 'images\Vineyard.PNG'>
+              <div class="overlay" style = "display: inline-block">
+                <div class="text">Optimal Locations For New Vineyard and Winery</div>
+              </div>
             </a>
+          </div>
         </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\WisconsinManufacturing.html">
-            <img class = "img-fluid img-bground" src = 'images\Manufacturing.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Wisconsin Manufacturing</div>
+        <div id = "dataViz" style = "height: 10vh"></div>
+        <div><h1>Data Visualizations</h1></div>
+          <div class = "row">
+            <div class = "col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+              <a href = "..\projects\WalkRunBike\WalkRunBike.html">
+                <img class = "img-fluid img-bground" src = 'images\WalkRunBike.PNG'>
+                <div class="overlay" style = "display: inline-block">
+                  <div class="text">Walking, Running, and Biking in Madison</div>
+                </div>
+              </a>
             </div>
-            </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\SanJuanIslands.html">
-            <img class = "img-fluid img-bground" src = 'images\SanJuan_Islands.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">San Juan Islands</div>
-            </div>
-          </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\Mapbox.html">
-            <img class = "img-fluid img-bground" src = 'images\Mapbox.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Hiroshi Nagai Themed Map</div>
-            </div>
-          </a>
-        </div>
-        <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
-          <a href = "projects\erosionvulnerability.html">
-            <img class = "img-fluid img-bground" src = 'images\LacCourteOreilles.PNG'>
-            <div class="overlay" style = "display: inline-block">
-              <div class="text">Measuring Erosion Vulnerability</div>
-            </div>
-          </a>
-        </div>
+          </div>
       </div>
-      </div>
-      <div class="toTop bottom" style = "margin-bottom: 400px">
-        <a href="#main-start">Back to Top<i class="icon-arrow-up icons"></i></a>
+      <div class="toTop bottom" style = "margin-bottom: 100px">
+        <a href="#mainTop">Back to Top<i class="icon-arrow-up icons"></i></a>
       </div>
       <footer id = "footer" class = "footer-style">
         <div class = "container-portfolio">
           <div class = "row">
             <div class = "col-md-4 text-center" style = "margin: auto;color:#7aa3f5;font-weight: bold">
-              <span>Last Updated: <i>August, 2020</i></span>
+              <span>Last Updated: <i>October, 2020</i></span>
             </div>
             <div class="col-md-4 text-center margin: auto">
                 <a href="https://twitter.com/micknare" class="fa fa-twitter" target="_blank"></a>
@@ -171,7 +266,7 @@
 
 
 
-    <script src = "lib\jquery-3.4.1.min.js"></script>
+    <script src = "lib\jquery-3.4.1.js"></script>
     <script src = "lib\bootstrap.min.js"></script>
     <script src = "lib\bootstrap.bundle.min.js"></script>
 

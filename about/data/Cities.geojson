@@ -1,0 +1,7 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"City":"LZ","Fullname":"Lake Zurich"},"geometry":{"type":"Point","coordinates":[-88.082331,42.193406]}},
+{"type":"Feature","properties":{"City":"CHI","Fullname":"Chicago"},"geometry":{"type":"Point","coordinates":[-87.69,41.879]}},
+{"type":"Feature","properties":{"City":"APL","Fullname":"Appleton"},"geometry":{"type":"Point","coordinates":[-88.394699,44.265929]}},
+{"type":"Feature","properties":{"City":"SP","Fullname":"Stevens Point"},"geometry":{"type":"Point","coordinates":[-89.573683,44.51956]}},
+{"type":"Feature","properties":{"City":"MAD","Fullname":"Madison"},"geometry":{"type":"Point","coordinates":[-89.395609,43.081309]}},
+{"type":"Feature","properties":{"City":"MKE","Fullname":"Milwaukee"},"geometry":{"type":"Point","coordinates":[-87.948334,43.063146]}},
+{"type":"Feature","properties":{"City":"MSF","Fullname":"Marshfield"},"geometry":{"type":"Point","coordinates":[-90.177021,44.663234]}}]}

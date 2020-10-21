@@ -1,0 +1,4 @@
+[{"type": "LineString","coordinates": [[-88.082331, 42.193406], [-89.573683, 44.51956]],"flow":"LZ_to_SP"},
+{"type": "LineString","coordinates": [[-89.573683, 44.51956], [-90.177021,44.663234]],"flow":"SP_to_MSF"},
+{"type": "LineString","coordinates": [[-90.177021,44.663234], [-88.394699,44.265929]],"flow":"MSF_to_APL"},
+{"type": "LineString","coordinates": [[-88.394699,44.265929], [-89.395609,43.081309]],"flow":"APL_to_MAD"}]
