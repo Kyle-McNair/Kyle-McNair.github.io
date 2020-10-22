@@ -135,7 +135,13 @@ function whole(){
             plotCity("MAD","yes")
             setTimeout(()=>{createFlow("APL_to_MAD")},1000)
             lightenFlow(".flow_MSF_to_APL")
-            
+        }
+        if(index == 6){
+            map.selectAll(".pulse_MAD").remove()
+            map.selectAll(".pulse_APL").remove()
+            map.selectAll(".pulse_MSF").remove()
+            map.selectAll(".pulse_SP").remove()
+            map.selectAll(".pulse_LZ").remove();
         }
  
     }
