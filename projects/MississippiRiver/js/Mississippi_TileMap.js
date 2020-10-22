@@ -6,6 +6,6 @@ var map = L.map('map', {
     Renderer: 10
 });
 var bounds = [[0,0], [10200,4800]];
-var image = L.imageOverlay('../projects/images/MS River.png', bounds).addTo(map);
+var image = L.imageOverlay('../MississippiRiver/images/MS River.png', bounds).addTo(map);
 
 map.fitBounds(bounds);
