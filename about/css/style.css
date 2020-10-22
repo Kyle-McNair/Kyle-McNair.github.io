@@ -19,6 +19,9 @@ html {
     position: relative !important;
     background-color: rgba(10,13,20,0.8) !important;
   }
+  .map{
+    z-index: 100 !important;
+  }
   .opening{
     font-size: 1.1em !important;
     line-height: 1.4rem !important;
@@ -44,7 +47,6 @@ body {
   color: white;
   text-align: left;
   background-color: #0a0d14;
-  overflow: hidden;
 }
 .big-margin{
   margin-bottom: 60px

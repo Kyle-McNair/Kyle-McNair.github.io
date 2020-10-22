@@ -210,7 +210,7 @@ nav{
 .fixed{
   position: sticky !important;
   top: 0 !important;
-  z-index: 100 !important;
+  z-index: 1 !important;
 }
 .navbar-brand{
     font-size: 2.5rem !important;
