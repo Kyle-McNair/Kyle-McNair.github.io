@@ -116,7 +116,7 @@ article {
 }
 .fixed-top{
   height: 70px;
-  z-index: 1;
+  z-index: 99999;
 }
 .col{
   padding: 0px !important;

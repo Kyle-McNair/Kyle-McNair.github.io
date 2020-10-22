@@ -210,7 +210,7 @@ nav{
 .fixed{
   position: sticky !important;
   top: 0 !important;
-  z-index: 1 !important;
+  z-index: 99999 !important;
 }
 .navbar-brand{
     font-size: 2.5rem !important;
@@ -245,10 +245,6 @@ nav{
 .navbar-toggler-icon {
   border-color: white;
   color: white;
-}
-.fixed-top{
-  width: 100%;
-  z-index: 99999;
 }
 .overlay{
   display: none;
