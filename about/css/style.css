@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth!important;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 @media (max-width: 576px){
   html {
@@ -14,7 +14,7 @@ html {
     margin-left: auto !important;
     margin-right: auto !important;
     float: none !important;
-    z-index: 99990 !important;
+    z-index: 99999 !important;
     line-height: 1.4rem !important;
     position: relative !important;
     background-color: rgba(10,13,20,0.8) !important;
