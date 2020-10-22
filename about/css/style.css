@@ -1,11 +1,15 @@
 html {
   scroll-behavior: smooth!important;
-  overflow-x: hidden;
+  
+}
+body{
+  background-color: #0a0d14 !important;
+  color: white;
+  
 }
 @media (max-width: 576px){
   html {
   overflow-y: scroll;
-  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   }
   .paragraphLeft{
@@ -38,14 +42,6 @@ a.fa{
 .bg-dark{
     background-color: #0a0d14!important;
 }
-body {
-  font-size: 1rem;
-  font-weight: 100;
-  line-height: 1;
-  color: white;
-  text-align: left;
-  background-color: #0a0d14;
-}
 .big-margin{
   margin-bottom: 60px
 }
@@ -58,18 +54,17 @@ body {
     margin-top: 25px;
     margin-bottom: 12.5px;
 }
-.bottom-update{
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
+.container-portfolio {
+  margin-top: 10px;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
   justify-content: center;
-  background-color: #758aae;
-  font-weight: bold;
-  color:  #1b2336;
-  font-family: 'Belleza', sans-serif;
-  font-size: 1rem;
-  bottom: 0
 }
 .container-fluid{
   margin-top: 10px;
@@ -85,12 +80,6 @@ body {
     margin-right: 10px;
     background-color: #0a0d14;
     text-align: center;
-}
-section{
-  width: 99%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 .fa {
     margin: 5px;
@@ -111,15 +100,9 @@ section{
 article {
   position: relative;
 }
-.states{
-  border: 0.25px solid white;
-}
 .fixed-top{
   height: 70px;
   z-index: 99999;
-}
-.col{
-  padding: 0px !important;
 }
 figure.sticky {
   text-align: center;
@@ -197,7 +180,11 @@ nav{
   border-color: white;
   color: white;
 }
-
+.fixed-top{
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
 .toTop{
   color: #7aa3f5;
   font-family: 'Belleza', sans-serif;
