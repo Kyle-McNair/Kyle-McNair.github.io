@@ -247,7 +247,6 @@ nav{
   color: white;
 }
 .fixed-top{
-  height: 70px;
   width: 100%;
   z-index: 99999;
 }

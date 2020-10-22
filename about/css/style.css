@@ -44,6 +44,7 @@ body {
   color: white;
   text-align: left;
   background-color: #0a0d14;
+  overflow: hidden;
 }
 .big-margin{
   margin-bottom: 60px
