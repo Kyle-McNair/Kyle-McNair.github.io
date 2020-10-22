@@ -86,11 +86,12 @@ function whole(){
             .setup({
                 step: '#Scrolly article .mapStepper',
                 debug: false,
-                offset: 0.85
+                offset: 0.75
             })
             .onStepEnter(updateMap)
     }
     function updateMap(response){
+        d3.selectAll(".paragraphLeft").raise()
         var index = response.index
         if(index == 0){
            IL.transition()
