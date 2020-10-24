@@ -157,11 +157,13 @@ h5{
   margin-top: 25px
 }
 .header-bar{
-    margin-top: 5px;
-    height: 1px;
-    width: 100%;
-    background-color: white;
-    filter:drop-shadow(0 0 2px white);
+  top: 75px;
+  height: 1px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  filter:drop-shadow(0 0 2px white);
+  z-index: 999 !important;
 }
 .high-rise{
   width: 100%;
@@ -169,9 +171,9 @@ h5{
   box-sizing: inherit;
 }
 iframe{
-    height: 600px;
-    width: 100%;
-    box-sizing: inherit;
+  height: 600px;
+  width: 100%;
+  box-sizing: inherit;
 }
 img:hover{
     box-shadow: 0px 0px 25px 0px white
@@ -232,7 +234,7 @@ nav{
 .fixed-top{
   width: 100%;
   z-index: 99999;
-  height: 70px;
+  height: 75px;
 }
 .overlay{
   display: none;

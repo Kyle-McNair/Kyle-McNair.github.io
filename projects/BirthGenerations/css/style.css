@@ -130,10 +130,9 @@ h2 {
 }
 h3{margin: 0;
   font-family: 'Roboto', sans-serif;
-color: white;
-text-align: left;
-font-size: 1.5rem;
-
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
 }
 h4{
   font-family: 'Roboto', sans-serif;
@@ -157,11 +156,12 @@ h5{
   margin-top: 25px
 }
 .header-bar{
-    margin-top: 5px;
-    height: 1px;
-    width: 100%;
-    background-color: white;
-    filter:drop-shadow(0 0 2px white);
+  top: 75px;
+  height: 1px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  filter:drop-shadow(0 0 2px white);
 }
 .high-rise{
   width: 100%;
@@ -193,6 +193,7 @@ nav{
   color: white !important;
   font-size: 1.5rem !important;
   font-family: 'Belleza', sans-serif;
+  z-index: 99999 !important;
 }
 .navbar-brand{
     font-size: 2.5rem !important;
@@ -231,7 +232,8 @@ nav{
 .fixed-top{
   width: 100%;
   z-index: 99999;
-  height: 70px !important;
+  height: 75px;
+
 }
 .overlay{
   display: none;

@@ -157,11 +157,13 @@ h5{
   margin-top: 25px
 }
 .header-bar{
-    margin-top: 5px;
+    top: 75px;
     height: 1px;
     width: 100%;
+    position: fixed;
     background-color: white;
     filter:drop-shadow(0 0 2px white);
+    z-index: 999;
 }
 .high-rise{
   width: 100%;
@@ -190,7 +192,7 @@ img:hover{
 }
 
 nav{
-  height: 50px;
+  height: 75px;
   color: white !important;
   font-size: 1.5rem !important;
   font-family: 'Belleza', sans-serif;
@@ -232,7 +234,7 @@ nav{
 .fixed-top{
   width: 100%;
   z-index: 99999;
-  height: 70px;
+  height: 75px;
 }
 .overlay{
   display: none;

@@ -157,11 +157,12 @@ h5{
   margin-top: 25px
 }
 .header-bar{
-    margin-top: 5px;
-    height: 1px;
-    width: 100%;
-    background-color: white;
-    filter:drop-shadow(0 0 2px white);
+  top: 75px;
+  height: 1px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  filter:drop-shadow(0 0 2px white);
 }
 .high-rise{
   width: 100%;
@@ -232,7 +233,7 @@ nav{
 .fixed-top{
   width: 100%;
   z-index: 99999;
-  height: 70px
+  height: 75px
 }
 .overlay{
   display: none;
